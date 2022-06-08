@@ -1,0 +1,22 @@
+
+
+
+
+/* hero section  */
+.hero{
+    min-height: 100vh;
+    text-align: center;
+    position: relative;
+}
+.hero .background{
+    padding: 0 3rem;
+    min-width: 100vw;
+    position: absolute;
+    color: white;
+    background-image:linear-gradient(to bottom, rgba(30, 33, 44, 0.5), rgba(7, 7, 43, 0.5)), url("./assets/hero.jpg");
+    max-height: 50vh;
+    min-height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
